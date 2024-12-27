@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Echo Vibez</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ff4c68;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background: #1e1f26;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 0.5rem;
+        }
+
+        nav .logo span {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff4c68;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover {
+            color: #ff4c68;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('https://th.bing.com/th/id/OIP.-1BrFwx8YI4VrjTO9JRENQHaE8?pid=ImgDet&w=474&h=316&rs=1') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .btn {
+            padding: 1rem 2rem;
+            background: #ff4c68;
+            color: #fff;
+            border-radius: 50px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .hero .btn:hover {
+            background: #ff738b;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            padding: 4rem 0;
+            background: #f8f9fa;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .feature img {
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e1f26;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer .social-icons {
+            margin-top: 1rem;
+        }
+
+        footer .social-icons a {
+            margin: 0 0.5rem;
+            color: #ff4c68;
+            font-size: 1.5rem;
+        }
+
+        footer .social-icons a:hover {
+            color: #ff738b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="https://img.freepik.com/premium-vector/simple-music-logo-design-concept-vector_9850-3776.jpg?w=2000" alt="Music Haven Logo">
+                    <span>Echo Vibez</span>
+                </div>
+                <ul>
+                    <li><a href="#" aria-current="page">Home</a></li>
+                    <li><a href="about page.html" >About</a></li>
+                    <li><a href="services.html" >Services</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Your Ultimate Music Destination</h1>
+            <p>Stream, Explore, and Share the Soundtracks of Your Life.</p>
+            <a href="#features" class="btn">Get Started</a>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features container">
+            <h2 class="section-title">Explore Our Features</h2>
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="Music Streaming">
+                <h3>Unlimited Streaming</h3>
+                <p>Listen to millions of tracks anytime, anywhere.</p>
+                <a href="" class="btn feature-btn">Explore More</a>
+            </div>
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/3063/3063226.png" alt="Create Playlists">
+                <h3>Create Playlists</h3>
+                <p>Curate your favorite tracks and share with friends.</p>
+                <a href="C:\Users\DEEPIGA RS\OneDrive\Desktop\New folder\mainfile.html" class="btn feature-btn">Start Creating</a>
+            </div>
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/1831/1831875.png" alt="Discover Artists">
+                <h3>Discover Artists</h3>
+                <p>Find new artists and explore diverse genres.</p>
+                <a href="C:\Users\DEEPIGA RS\OneDrive\Desktop\New folder\ecommerse.html" class="btn feature-btn">Discover Now</a>
+            </div>
+        </section>
+        <script>
+            document.querySelectorAll('.feature-btn').UnlimitedStreaming(btn => {
+                btn.addEventListener('click', () => {
+                    alert('This feature is under development!');
+                });
+            });
+        </script>
+        
+        
+        
+        
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Echo Vibez. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">&#x1F426;</a>
+                <a href="#">&#x1F4F7;</a>
+                <a href="#">&#x1F3B5;</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
